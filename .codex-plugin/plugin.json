@@ -15,7 +15,7 @@
     "dns",
     "mcp"
   ],
-  "mcpServers": "./mcp.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Tino",
     "shortDescription": "Manage Tino hosting & domains",
