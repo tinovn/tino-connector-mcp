@@ -1,0 +1,43 @@
+{
+  "name": "tino",
+  "version": "1.0.0",
+  "description": "Manage your Tino hosting, VPS, domains, DNS, invoices and support tickets through the Tino MCP server with OAuth consent.",
+  "author": {
+    "name": "Tino",
+    "email": "support@tino.vn"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "tino",
+    "hosting",
+    "vps",
+    "domains",
+    "dns",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Tino",
+    "shortDescription": "Manage Tino hosting & domains",
+    "longDescription": "Manage your Tino account in plain language: list and inspect hosting and VPS services, start, stop or reboot a VPS, check and renew domains, change nameservers, edit DNS records, review and pay invoices from account credit, and handle support tickets. Tools that change data are marked as write operations; review and confirm the intended change according to your application settings. Access is limited to the permissions you approve when you sign in to Tino.",
+    "developerName": "TINO GROUP JOINT STOCK COMPANY",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://tino.vn",
+    "defaultPrompt": [
+      "List my Tino services and their renewal dates.",
+      "Which nameservers does my domain use?",
+      "Do I have unpaid invoices?"
+    ],
+    "logo": "./assets/tino-icon-512.png",
+    "composerIcon": "./assets/tino-icon-512.png",
+    "supportURL": "https://tino.vn/",
+    "privacyPolicyURL": "https://tino.vn/chinh-sach-bao-mat",
+    "termsOfServiceURL": "https://tino.vn/dieu-khoan-su-dung-dich-vu"
+  },
+  "repository": "https://github.com/tinovn/tino-connector-mcp",
+  "homepage": "https://github.com/tinovn/tino-connector-mcp/blob/main/docs/mcp-connector.md"
+}

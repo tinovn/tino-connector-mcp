@@ -1,0 +1,16 @@
+{
+  "name": "tinovn",
+  "description": "Tino plugins for Claude Code.",
+  "owner": {
+    "name": "Tino",
+    "email": "support@tino.vn"
+  },
+  "plugins": [
+    {
+      "name": "tino",
+      "description": "Manage your Tino hosting, VPS, domains, DNS, invoices and support tickets.",
+      "source": "./",
+      "version": "1.0.0"
+    }
+  ]
+}

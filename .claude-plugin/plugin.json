@@ -1,0 +1,22 @@
+{
+  "name": "tino",
+  "displayName": "Tino",
+  "version": "1.0.0",
+  "description": "Quản lý hosting, VPS, tên miền, DNS, hoá đơn và ticket Tino từ Claude Code qua MCP (https://api.tino.vn/mcp), đăng nhập OAuth bằng tài khoản Tino.",
+  "author": {
+    "name": "Tino",
+    "email": "support@tino.vn"
+  },
+  "homepage": "https://github.com/tinovn/tino-connector-mcp/blob/main/docs/mcp-connector.md",
+  "license": "Apache-2.0",
+  "keywords": [
+    "tino",
+    "hosting",
+    "vps",
+    "domains",
+    "dns",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "repository": "https://github.com/tinovn/tino-connector-mcp"
+}

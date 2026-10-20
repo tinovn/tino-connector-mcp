@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tino": {
+      "type": "http",
+      "url": "https://api.tino.vn/mcp"
+    }
+  }
+}
