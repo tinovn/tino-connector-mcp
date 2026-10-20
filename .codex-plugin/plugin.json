@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Tino",
     "shortDescription": "Manage Tino hosting & domains",
-    "longDescription": "Manage your Tino account in plain language: list and inspect hosting and VPS services, start, stop or reboot a VPS, check and renew domains, change nameservers, edit DNS records, review and pay invoices from account credit, and handle support tickets. Tools that change data are marked as write operations; review and confirm the intended change according to your application settings. Access is limited to the permissions you approve when you sign in to Tino.",
+    "longDescription": "Manage your Tino account in plain language: list and inspect hosting and VPS services, start, stop or reboot a VPS, check and renew domains, change nameservers, edit DNS records, review and pay invoices from account credit, and handle support tickets. Tools that change data are marked as write operations; review and confirm the intended change according to your application settings. Access is limited to the permissions you approve when you sign in to Tino. Service cancellation is available only in the Tino client dashboard; this plugin does not support service cancellation.",
     "developerName": "TINO GROUP JOINT STOCK COMPANY",
     "category": "Developer Tools",
     "capabilities": [
@@ -45,7 +45,7 @@
       "review": {
         "commerce": true,
         "commerce_description": "Supports paying Tino invoices from the customer's Tino account credit (payall, apply_credit_to_invoice), requesting account top-ups (add_funds), and ordering domains or SSL certificates that create Tino invoices (domain_order, certificate_order). It does not transfer money to third parties or support cryptocurrency. Users must review and confirm these write actions in the client application before execution.",
-        "demo_recording_url": "https://raw.githubusercontent.com/tinovn/tino-connector-mcp/248664972270a23998bbfa2dcbd679539a28c26a/demo/tino-mcp-demo.mp4"
+        "demo_recording_url": "https://raw.githubusercontent.com/tinovn/tino-connector-mcp/515a48c814edef43a7d425064158a5374ef9388e/demo/tino-mcp-demo-positive-only.mp4"
       }
     }
   }

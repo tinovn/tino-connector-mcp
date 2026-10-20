@@ -22,7 +22,7 @@ Khi kết nối, trình duyệt mở trang đăng nhập Tino: đăng nhập nh�
 |---|---|
 | Xem thông tin tài khoản | Xem hồ sơ (đã lược giấy tờ, SĐT, địa chỉ), thông báo |
 | Xem dịch vụ | Danh sách và chi tiết dịch vụ, VPS, tài nguyên, chứng chỉ SSL |
-| Quản lý dịch vụ | Khởi động/tắt/khởi động lại VPS, đổi hostname, gia hạn, đặt chứng chỉ SSL, yêu cầu huỷ dịch vụ |
+| Quản lý dịch vụ | Khởi động/tắt/khởi động lại VPS, đổi hostname, gia hạn, đặt chứng chỉ SSL |
 | Xem tên miền | Danh sách, chi tiết, nameserver, khoá chuyển, gia hạn tự động |
 | Quản lý tên miền | Đổi nameserver, đặt mua và gia hạn tên miền, bật/tắt khoá, chuyển tiếp |
 | Xem / sửa bản ghi DNS | Đọc, thêm, sửa, xoá bản ghi và vùng DNS |
@@ -30,7 +30,9 @@ Khi kết nối, trình duyệt mở trang đăng nhập Tino: đăng nhập nh�
 | Thanh toán, nạp tiền | Thanh toán hoá đơn bằng số dư, tạo yêu cầu nạp tiền |
 | Ticket | Xem ticket, trả lời, đóng/mở lại |
 
-Mã chuyển tên miền (EPP) và đổi chủ thể tên miền **không bao giờ** cấp cho trợ lý. Mọi thao tác có thay đổi (đặt hàng, thanh toán, huỷ, đổi DNS/nameserver, khởi động lại VPS) được đánh dấu là thao tác ghi. Bước hỏi xác nhận do Claude/ChatGPT thực hiện theo cấu hình của ứng dụng; hãy kiểm tra và xác nhận nội dung thay đổi trước khi chạy.
+Yêu cầu hủy dịch vụ chỉ thực hiện trên bảng điều khiển khách hàng Tino; MCP không hỗ trợ thao tác hủy.
+
+Mã chuyển tên miền (EPP) và đổi chủ thể tên miền **không bao giờ** cấp cho trợ lý. Mọi thao tác có thay đổi (đặt hàng, thanh toán, đổi DNS/nameserver, khởi động lại VPS) được đánh dấu là thao tác ghi. Bước hỏi xác nhận do Claude/ChatGPT thực hiện theo cấu hình của ứng dụng; hãy kiểm tra và xác nhận nội dung thay đổi trước khi chạy.
 
 ### Ví dụ
 
@@ -75,7 +77,7 @@ Connecting opens the Tino sign-in page: sign in as usual (one-time code by email
 |---|---|
 | Account (read) | Profile (without ID documents, phone or address), notifications |
 | Services (read) | Service list and details, VPS, resources, SSL certificates |
-| Services (manage) | Start/stop/reboot a VPS, change hostname, renew, order SSL, request cancellation |
+| Services (manage) | Start/stop/reboot a VPS, change hostname, renew, order SSL |
 | Domains (read) | Domain list and details, nameservers, transfer lock, auto-renew |
 | Domains (manage) | Change nameservers, register and renew domains, lock/unlock, forwarding |
 | DNS (read / edit) | Read, add, edit and delete DNS zones and records |
@@ -83,7 +85,9 @@ Connecting opens the Tino sign-in page: sign in as usual (one-time code by email
 | Billing (pay) | Pay invoices from account credit, request a top-up |
 | Tickets | Read, reply to, close and reopen tickets |
 
-Domain transfer (EPP) codes and registrant changes are **never** available to an assistant. Every tool that changes something (orders, payments, cancellation, DNS/nameserver changes, VPS restarts) is annotated as a write. Claude and ChatGPT handle confirmation according to the application settings; review and confirm the intended change before running it.
+Service cancellation is available only in the Tino client dashboard; MCP does not support cancellation.
+
+Domain transfer (EPP) codes and registrant changes are **never** available to an assistant. Every tool that changes something (orders, payments, DNS/nameserver changes, VPS restarts) is annotated as a write. Claude and ChatGPT handle confirmation according to the application settings; review and confirm the intended change before running it.
 
 ### Examples
 
