@@ -18,5 +18,7 @@
     "mcp"
   ],
   "mcpServers": "./.mcp.json",
-  "repository": "https://github.com/tinovn/tino-connector-mcp"
+  "repository": "https://github.com/tinovn/tino-connector-mcp",
+  "icon": "./assets/tino-icon-512.png",
+  "privacyPolicyUrl": "https://tino.vn/chinh-sach-bao-mat"
 }
