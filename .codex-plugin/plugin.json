@@ -39,5 +39,13 @@
     "termsOfServiceURL": "https://tino.vn/dieu-khoan-su-dung-dich-vu"
   },
   "repository": "https://github.com/tinovn/tino-connector-mcp",
-  "homepage": "https://github.com/tinovn/tino-connector-mcp/blob/main/docs/mcp-connector.md"
+  "homepage": "https://github.com/tinovn/tino-connector-mcp/blob/main/docs/mcp-connector.md",
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "commerce": true,
+        "commerce_description": "Supports paying Tino invoices from the customer's Tino account credit (payall, apply_credit_to_invoice), requesting account top-ups (add_funds), and ordering domains or SSL certificates that create Tino invoices (domain_order, certificate_order). It does not transfer money to third parties or support cryptocurrency. Users must review and confirm these write actions in the client application before execution."
+      }
+    }
+  }
 }
